@@ -22,4 +22,4 @@ const routes: Routes = [
     RouterModule.forChild(routes)
   ]
 })
-export class TemplateRoutingModule { }
+export class ReactiveRoutingModule { }
