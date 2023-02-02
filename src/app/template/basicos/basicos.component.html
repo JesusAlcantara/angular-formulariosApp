@@ -79,23 +79,3 @@
     </form>
   </div>
 </div>
-
-
-<div class="row">
-  <div class="col">
-    <span>Valid</span>
-    <pre>{{ miFormulario.valid }}</pre>
-
-    <span>Pristine</span>
-    <pre>{{ miFormulario.pristine }}</pre>
-
-    <span>Touched</span>
-    <pre>{{ miFormulario.touched }}</pre>
-
-    <span>Value</span>
-    <pre>{{ miFormulario.value | json }}</pre>
-
-    <span>CustomDirective</span>
-    <pre>{{ miFormulario.controls['existenciasProducto']?.errors | json }}</pre>
-  </div>
-</div>
